@@ -22,3 +22,6 @@ class TodoListView(APIView):
     
     def delete(self,request):
         pass
+
+    def update(self,requet):
+        pass
