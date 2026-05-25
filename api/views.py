@@ -19,3 +19,6 @@ class TodoListView(APIView):
         serializer.is_valid(raise_exception=True)
         serializer.save()
         return Response(serializer.data,status=201)
+    
+    def delete(self,request):
+        pass
